@@ -7,7 +7,7 @@
 <div align="center">
 
 <!-- 🌊 Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=header&height=240&color=0:0D1117,50:0A66C2,100:61DAFB&text=Mohamed%20Elnady&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Senior%20React%20Native%20%26%20Mobile%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Mohamed Elnady — Senior React Native & Mobile Engineer" />
+<img width="100%" src="./banner.svg" alt="Mohamed Elnady — Senior React Native & Mobile Engineer" />
 
 <!-- ⌨️ Typing animation (switches colour automatically in light / dark mode) -->
 <a href="https://mohamedelnady.vercel.app/">
@@ -100,9 +100,8 @@ const mohamed = {
 <h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mohamedelandy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=61DAFB&text_color=A0AEC0&icon_color=61DAFB&bg_color=0D1117" alt="Mohamed's GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelandy&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Top Languages" />
-  <br/>
+  <img src="https://img.shields.io/github/followers/mohamedelandy?style=for-the-badge&logo=github&color=0A66C2&labelColor=0D1117" alt="GitHub followers" />
+  <br/><br/>
   <img src="https://streak-stats.demolab.com/?user=mohamedelandy&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
 </div>
 
@@ -124,6 +123,6 @@ const mohamed = {
 
 <sub>Thanks for stopping by. Let's ship something great. ⚡</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0D1117,50:0A66C2,100:61DAFB" alt="" />
+<img width="100%" src="./footer.svg" alt="" />
 
 </div>

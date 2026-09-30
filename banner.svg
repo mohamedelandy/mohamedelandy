@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="1200" height="290" role="img" aria-label="Mohamed Elnady - Senior Mobile Engineer">
+  <defs>
+    <!-- Background Vertical Seamless Alpha Mask -->
+    <linearGradient id="banner-alpha-mask" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4" />
+      <stop offset="10%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#FFFFFF" stop-opacity="0.45" />
+      <stop offset="90%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <mask id="seamless-mask">
+      <rect width="1200" height="290" fill="url(#banner-alpha-mask)" />
+    </mask>
+
+    <!-- Background Base Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="45%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+
+    <!-- Ambient Glow Highlights -->
+    <radialGradient id="glow-cyan" cx="22%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.24" />
+      <stop offset="60%" stop-color="#61DAFB" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#61DAFB" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-blue" cx="78%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#0A66C2" stop-opacity="0.32" />
+      <stop offset="65%" stop-color="#0A66C2" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-center" cx="50%" cy="45%" r="35%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Metallic Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#E2F5FE" />
+      <stop offset="70%" stop-color="#61DAFB" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="badge-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#61DAFB" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0A66C2" stop-opacity="0.55" />
+    </linearGradient>
+
+    <linearGradient id="badge-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.55" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="tech-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#61DAFB" stroke-width="0.6" stroke-opacity="0.09" />
+      <circle cx="40" cy="0" r="1" fill="#61DAFB" fill-opacity="0.25" />
+      <circle cx="0" cy="40" r="1" fill="#61DAFB" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes spinOrbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinCounter {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes liveBlink {
+        0%, 100% { opacity: 1; filter: drop-shadow(0 0 6px #22C55E); }
+        50% { opacity: 0.45; filter: drop-shadow(0 0 1px #22C55E); }
+      }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 0.9; transform: scale(1.3); }
+      }
+      @keyframes streamShimmer {
+        0% { stroke-dashoffset: 600; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .float-fx { animation: floatSlow 5s ease-in-out infinite; }
+      .orbit-1 { animation: spinOrbit 28s linear infinite; transform-origin: 140px 140px; }
+      .orbit-2 { animation: spinCounter 22s linear infinite; transform-origin: 140px 140px; }
+      .orbit-3 { animation: spinOrbit 34s linear infinite; transform-origin: 140px 140px; }
+      .live-dot { animation: liveBlink 2.2s ease-in-out infinite; }
+      .star-1 { animation: twinkle 3.5s ease-in-out infinite; }
+      .star-2 { animation: twinkle 4.8s ease-in-out 1.2s infinite; }
+      .star-3 { animation: twinkle 2.9s ease-in-out 0.8s infinite; }
+      .stream-line { stroke-dasharray: 60, 240; animation: streamShimmer 7s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- 1. Background Layers (Seamlessly Faded via Alpha Mask) -->
+  <g mask="url(#seamless-mask)">
+    <rect width="1200" height="290" fill="url(#bg-grad)" />
+    <rect width="1200" height="290" fill="url(#glow-cyan)" />
+    <rect width="1200" height="290" fill="url(#glow-blue)" />
+    <rect width="1200" height="290" fill="url(#glow-center)" />
+    <rect width="1200" height="290" fill="url(#tech-grid)" />
+
+    <!-- Ambient Circuit / Stream Lines -->
+    <g opacity="0.6" stroke-linecap="round">
+      <path class="stream-line" d="M -50 70 Q 250 120 500 70 T 1000 90 T 1250 50" fill="none" stroke="#61DAFB" stroke-width="1.2" opacity="0.5" />
+      <path class="stream-line" d="M -50 210 Q 300 170 650 200 T 1150 180 T 1300 220" fill="none" stroke="#0A66C2" stroke-width="1.2" opacity="0.4" />
+    </g>
+  </g>
+
+  <!-- 2. Twinkling Tech Sparks & Nodes -->
+  <g fill="#61DAFB">
+    <circle class="star-1" cx="310" cy="65" r="1.5" />
+    <circle class="star-2" cx="890" cy="55" r="1.8" />
+    <circle class="star-3" cx="1060" cy="170" r="1.4" />
+    <circle class="star-2" cx="150" cy="220" r="1.6" fill="#38BDF8" />
+    <circle class="star-1" cx="720" cy="40" r="1.2" />
+    <circle class="star-3" cx="980" cy="85" r="1.5" fill="#FFFFFF" />
+  </g>
+
+  <!-- 3. Left Cyber React Orbital Construct -->
+  <g opacity="0.75" class="float-fx">
+    <circle cx="140" cy="140" r="8" fill="#61DAFB" opacity="0.8" filter="url(#neon-glow)" />
+    <circle cx="140" cy="140" r="3" fill="#FFFFFF" />
+    <ellipse class="orbit-1" cx="140" cy="140" rx="85" ry="32" fill="none" stroke="#61DAFB" stroke-width="1.5" opacity="0.7" stroke-dasharray="120 15 40 10" filter="url(#neon-glow)" />
+    <ellipse class="orbit-2" cx="140" cy="140" rx="85" ry="32" fill="none" stroke="#38BDF8" stroke-width="1.4" opacity="0.6" stroke-dasharray="80 20" transform="rotate(60 140 140)" />
+    <ellipse class="orbit-3" cx="140" cy="140" rx="85" ry="32" fill="none" stroke="#0A66C2" stroke-width="1.4" opacity="0.65" stroke-dasharray="90 25" transform="rotate(120 140 140)" />
+  </g>
+
+  <!-- 4. Right Side Mobile Geometric Telemetry Visual -->
+  <g opacity="0.7" transform="translate(1010, 60)" class="float-fx">
+    <!-- Device Silhouette -->
+    <rect x="0" y="0" width="84" height="156" rx="16" fill="rgba(15, 23, 42, 0.6)" stroke="url(#badge-stroke)" stroke-width="1.6" filter="url(#neon-glow)" />
+    <!-- Notch & Screen Elements -->
+    <rect x="30" y="8" width="24" height="4" rx="2" fill="#61DAFB" opacity="0.8" />
+    <rect x="12" y="24" width="40" height="5" rx="2.5" fill="#38BDF8" opacity="0.7" />
+    <rect x="12" y="36" width="60" height="3" rx="1.5" fill="#64748B" opacity="0.5" />
+    <rect x="12" y="44" width="50" height="3" rx="1.5" fill="#64748B" opacity="0.4" />
+    <!-- Mini UI Card -->
+    <rect x="10" y="56" width="64" height="46" rx="8" fill="rgba(97, 218, 251, 0.08)" stroke="#61DAFB" stroke-width="0.8" />
+    <circle cx="24" cy="74" r="6" fill="#61DAFB" opacity="0.6" />
+    <rect x="36" y="70" width="30" height="4" rx="2" fill="#FFFFFF" opacity="0.8" />
+    <rect x="36" y="77" width="20" height="3" rx="1.5" fill="#64748B" opacity="0.6" />
+    <!-- Bottom Bar & Indicator -->
+    <rect x="12" y="112" width="60" height="18" rx="5" fill="#0A66C2" fill-opacity="0.3" stroke="#38BDF8" stroke-width="0.6" />
+    <rect x="28" y="145" width="28" height="3" rx="1.5" fill="#94A3B8" opacity="0.7" />
+    <circle cx="88" cy="18" r="3.5" fill="#61DAFB" filter="url(#neon-glow)" />
+    <circle cx="-6" cy="130" r="2.5" fill="#38BDF8" filter="url(#neon-glow)" />
+  </g>
+
+  <!-- 5. Main Hero Typography & Presentation -->
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    
+    <!-- Top Status Capsule Badge -->
+    <g transform="translate(600, 44)">
+      <rect x="-195" y="-14" width="390" height="28" rx="14" fill="#0B132B" fill-opacity="0.85" stroke="url(#badge-stroke)" stroke-width="1.2" />
+      <circle class="live-dot" cx="-168" cy="0" r="4.5" fill="#22C55E" />
+      <circle cx="-168" cy="0" r="7" fill="none" stroke="#22C55E" stroke-width="1" opacity="0.5" />
+      <text x="12" y="4" font-size="11" font-weight="700" fill="#94A3B8" letter-spacing="1.8" text-anchor="middle">
+        SENIOR MOBILE ENGINEER <tspan fill="#38BDF8">·</tspan> CROSS-PLATFORM SPECIALIST
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="118" font-size="52" font-weight="800" fill="url(#title-grad)" letter-spacing="-0.5" filter="drop-shadow(0 2px 14px rgba(97,218,251,0.25))">
+      Mohamed Elnady
+    </text>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="600" y="158" font-size="16.5" font-weight="500" fill="#94A3B8" letter-spacing="0.4">
+      Architecting Scalable Mobile Ecosystems <tspan fill="#61DAFB">|</tspan> React Native <tspan fill="#61DAFB">|</tspan> iOS &amp; Android Native Bridge
+    </text>
+
+    <!-- 6. Interactive-style Glassmorphic Badges (Symmetrically Centered) -->
+    <g transform="translate(600, 208)">
+      
+      <!-- Badge 1: React Native -->
+      <g transform="translate(-370, 0)">
+        <rect x="0" y="0" width="132" height="34" rx="8" fill="url(#badge-bg)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+        <text x="66" y="21.5" font-size="12" font-weight="600" fill="#E2E8F0">⚛️ React Native</text>
+      </g>
+
+      <!-- Badge 2: iOS (Swift) -->
+      <g transform="translate(-224, 0)">
+        <rect x="0" y="0" width="128" height="34" rx="8" fill="url(#badge-bg)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+        <text x="64" y="21.5" font-size="12" font-weight="600" fill="#E2E8F0">🍎 iOS (Swift)</text>
+      </g>
+
+      <!-- Badge 3: Android (Kotlin) -->
+      <g transform="translate(-84, 0)">
+        <rect x="0" y="0" width="154" height="34" rx="8" fill="url(#badge-bg)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+        <text x="77" y="21.5" font-size="12" font-weight="600" fill="#E2E8F0">🤖 Android (Kotlin)</text>
+      </g>
+
+      <!-- Badge 4: Expo -->
+      <g transform="translate(84, 0)">
+        <rect x="0" y="0" width="104" height="34" rx="8" fill="url(#badge-bg)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+        <text x="52" y="21.5" font-size="12" font-weight="600" fill="#E2E8F0">⚡ Expo</text>
+      </g>
+
+      <!-- Badge 5: Clean Architecture -->
+      <g transform="translate(202, 0)">
+        <rect x="0" y="0" width="168" height="34" rx="8" fill="url(#badge-bg)" stroke="url(#badge-stroke)" stroke-width="1.2" />
+        <text x="84" y="21.5" font-size="12" font-weight="600" fill="#E2E8F0">🏛️ Clean Architecture</text>
+      </g>
+
+    </g>
+
+  </g>
+
+</svg>
