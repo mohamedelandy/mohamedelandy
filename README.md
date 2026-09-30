@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
   <!-- Header Dynamic Typing SVG -->
@@ -59,12 +58,20 @@
 ├── Tjaara Multi-Stores App ──── Multi-tenant E-Commerce, dynamic theming engine, full RTL Arabic UX
 ├── Tjaara Dashboard App ─────── Real-time merchant ops, live inventory sync & analytics visualization
 └── Tjaara Partners App ──────── Extensible integration hub connecting merchants, APIs & third-party vendors
-
 ```
 
 ---
 
 ### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=mohamedelandy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=61DAFB&text_color=A0AEC0&icon_color=61DAFB&bg_color=0D1117" alt="Mohamed's GitHub Stats" />
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelandy&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamedelandy&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+</div>
 
 ---
 
@@ -72,8 +79,6 @@
 
 Whether you're looking to build a high-performance cross-platform application, refactor legacy codebases into modern clean architecture, or optimize CI/CD release pipelines:
 
-* 🌐 **Portfolio:** [mohamedelnady.vercel.app](https://mohamedelnady.vercel.app/)
-* 💼 **LinkedIn:** [linkedin.com/in/mohammedelnady](https://www.google.com/url?sa=E&source=gmail&q=https://linkedin.com/in/mohammedelnady)
-* ✉️ **Direct Email:** [muhammed.elnady@hotmail.com](https://www.google.com/search?q=mailto%3Amuhammed.elnady%40hotmail.com)
-
-```
+- 🌐 **Portfolio:** [mohamedelnady.vercel.app](https://mohamedelnady.vercel.app/)
+- 💼 **LinkedIn:** [linkedin.com/in/mohammedelnady](https://linkedin.com/in/mohammedelnady)
+- ✉️ **Direct Email:** [muhammed.elnady@hotmail.com](mailto:muhammed.elnady@hotmail.com)
