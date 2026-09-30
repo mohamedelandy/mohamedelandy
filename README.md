@@ -26,7 +26,7 @@
 
 <!-- 🔗 Quick links -->
 <p>
-  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=mohamedelandy&label=Profile%20views&color=087EA4&labelColor=0D1117&style=for-the-badge" alt="Profile views" />
@@ -116,7 +116,7 @@ const mohamed = {
 | High-performance cross-platform apps that feel truly native | Legacy codebases → modern clean architecture | Faster, safer releases with optimized CI/CD pipelines |
 
 <p>
-  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
