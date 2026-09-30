@@ -1,84 +1,129 @@
-<div align="center">
-
-  <!-- Header Dynamic Typing SVG -->
-  <a href="https://mohamedelnady.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=750&lines=Hi+there!+I'm+Mohamed+Elnady+👋;Senior+React+Native+Developer+📱;Bridging+React+Native+%2B+Swift+%2B+Kotlin;Crafting+Scalable+Mobile+Apps+at+Scale" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    <strong>Senior React Native & Mobile Engineer</strong> with <strong>8+ years</strong> of engineering scalable, high-performance cross-platform applications across E-commerce, Real Estate, and On-Demand ecosystems.
-  </p>
-
-  <!-- Social & Quick Links Badges -->
-  <p align="center">
-    <a href="https://mohamedelnady.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-mohamedelnady.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-    </a>
-    <a href="https://linkedin.com/in/mohammedelnady" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:muhammed.elnady@hotmail.com">
-      <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
-
-</div>
-
----
-
-### 🚀 Quick Glance & Impact
-
-- 📱 **15+ Production Apps** shipped to the App Store and Google Play with robust architecture.
-- ⚡ **Core Mobile Specialization:** React Native & Expo with deep native module mastery in **Swift, Objective-C, Kotlin, and Java**.
-- 🌍 **RTL & Localization Veteran:** Extensive track record in Arabic localization, multi-tenant theming, and complex e-commerce platforms.
-- 🏗️ **Architecture & Testing:** Clean Architecture, Offline-First synchronization, CI/CD automation via Azure DevOps & GitHub Actions, and E2E testing with Detox & Jest.
-
----
-
-### 🛠️ Tech Stack & Architecture Arsenal
+<!--
+  ✨ Mohamed Elnady · GitHub profile README
+  Palette: React cyan #61DAFB · deep blue #0A66C2 · GitHub dark #0D1117
+  Tip: search-and-replace these hex codes to re-theme the whole page.
+-->
 
 <div align="center">
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Mobile Core** | ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Native Bridge** | ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android_SDK-3DDC84?style=flat-square&logo=android&logoColor=white) ![iOS](https://img.shields.io/badge/iOS_SDK-000000?style=flat-square&logo=apple&logoColor=white) |
-| **State & Data** | ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white) ![React Query](https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=react-query&logoColor=white) ![Zustand](https://img.shields.io/badge/Zustand-443e38?style=flat-square) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square) |
-| **Cloud & Backend** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![FCM](https://img.shields.io/badge/FCM_Push_Notifications-FF6F00?style=flat-square) ![Firestore](https://img.shields.io/badge/Cloud_Firestore-FFA611?style=flat-square) |
-| **CI/CD & Testing** | ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![Detox](https://img.shields.io/badge/Detox_E2E-4A154B?style=flat-square) |
-| **UI/UX & Tooling** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![RTL Layouts](https://img.shields.io/badge/RTL_%26_i18n-4CAF50?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+<!-- 🌊 Animated wave banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=header&height=240&color=0:0D1117,50:0A66C2,100:61DAFB&text=Mohamed%20Elnady&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Senior%20React%20Native%20%26%20Mobile%20Engineer&descSize=20&descAlignY=58&animation=fadeIn" alt="Mohamed Elnady — Senior React Native & Mobile Engineer" />
+
+<!-- ⌨️ Typing animation (switches colour automatically in light / dark mode) -->
+<a href="https://mohamedelnady.vercel.app/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=800&height=50&lines=Hi+there!+I%27m+Mohamed+%F0%9F%91%8B;8%2B+years+shipping+mobile+apps+that+scale+%F0%9F%9A%80;Bridging+React+Native%2C+Swift+%26+Kotlin+%F0%9F%8C%89;15%2B+apps+live+on+the+App+Store+%26+Google+Play+%F0%9F%93%B1">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=087EA4&center=true&vCenter=true&width=800&height=50&lines=Hi+there!+I%27m+Mohamed+%F0%9F%91%8B;8%2B+years+shipping+mobile+apps+that+scale+%F0%9F%9A%80;Bridging+React+Native%2C+Swift+%26+Kotlin+%F0%9F%8C%89;15%2B+apps+live+on+the+App+Store+%26+Google+Play+%F0%9F%93%B1">
+    <img alt="Typing animation: Hi there, I'm Mohamed" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=087EA4&center=true&vCenter=true&width=800&height=50&lines=Hi+there!+I%27m+Mohamed+%F0%9F%91%8B;8%2B+years+shipping+mobile+apps+that+scale+%F0%9F%9A%80;Bridging+React+Native%2C+Swift+%26+Kotlin+%F0%9F%8C%89;15%2B+apps+live+on+the+App+Store+%26+Google+Play+%F0%9F%93%B1">
+  </picture>
+</a>
+
+<p>
+  <b>I build mobile apps that feel native, scale cleanly and ship reliably.</b><br/>
+  Engineering high-performance cross-platform products across
+  <b>E-commerce</b>, <b>Real Estate</b> &amp; <b>On-Demand</b> ecosystems.
+</p>
+
+<!-- 🔗 Quick links -->
+<p>
+  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=mohamedelandy&label=Profile%20views&color=087EA4&labelColor=0D1117&style=for-the-badge" alt="Profile views" />
+</p>
+
+<!-- 📈 By the numbers -->
+<table align="center">
+  <tr>
+    <td align="center"><h3>8+</h3><sub>YEARS OF EXPERIENCE</sub></td>
+    <td align="center"><h3>15+</h3><sub>APPS IN PRODUCTION</sub></td>
+    <td align="center"><h3>4</h3><sub>NATIVE LANGUAGES</sub></td>
+    <td align="center"><h3>3</h3><sub>INDUSTRIES</sub></td>
+  </tr>
+</table>
 
 </div>
 
----
+<h2 align="center">👨‍💻 About Me</h2>
 
-### 💼 Flagship Production Platforms
+```ts
+const mohamed = {
+  role: "Senior React Native & Mobile Engineer",
+  experience: "8+ years",
+  shipped: "15+ production apps on the App Store & Google Play",
+  industries: ["E-commerce", "Real Estate", "On-Demand"],
 
-```text
-├── Tjaara Multi-Stores App ──── Multi-tenant E-Commerce, dynamic theming engine, full RTL Arabic UX
-├── Tjaara Dashboard App ─────── Real-time merchant ops, live inventory sync & analytics visualization
-└── Tjaara Partners App ──────── Extensible integration hub connecting merchants, APIs & third-party vendors
+  superpowers: [
+    "React Native & Expo, with deep native modules in Swift, Obj-C, Kotlin & Java",
+    "Clean Architecture & offline-first synchronization",
+    "RTL, Arabic localization & multi-tenant theming",
+    "CI/CD automation with Azure DevOps & GitHub Actions",
+    "Unit & E2E testing with Jest & Detox",
+  ],
+
+  helpsWith: [
+    "Building high-performance cross-platform apps",
+    "Refactoring legacy codebases into modern clean architecture",
+    "Optimizing CI/CD release pipelines",
+  ],
+
+  motto: "Ship fast. Feel native. Scale clean.",
+} as const;
 ```
 
----
-
-### 📊 GitHub Activity & Metrics
+<h2 align="center">🧰 Tech Arsenal</h2>
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=mohamedelandy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=61DAFB&text_color=A0AEC0&icon_color=61DAFB&bg_color=0D1117" alt="Mohamed's GitHub Stats" />
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelandy&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Top Languages" />
+
+| Domain | Technologies |
+| :--- | :--- |
+| **📱 Mobile Core** | <img src="https://skillicons.dev/icons?i=react,ts,js" alt="React, TypeScript, JavaScript" /><br/>`React Native` `Expo` |
+| **🧬 Native Bridge** | <img src="https://skillicons.dev/icons?i=swift,kotlin,java,androidstudio" alt="Swift, Kotlin, Java, Android" /><br/>`Objective-C` `iOS SDK` `Android SDK` `Native Modules` |
+| **🧠 State & Data** | <img src="https://skillicons.dev/icons?i=redux,graphql" alt="Redux, GraphQL" /><br/>`Redux Toolkit` `React Query` `Zustand` `REST APIs` |
+| **☁️ Cloud & Backend** | <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" /><br/>`Firestore` `FCM Push Notifications` |
+| **🚦 CI/CD & Testing** | <img src="https://skillicons.dev/icons?i=azure,githubactions,jest" alt="Azure, GitHub Actions, Jest" /><br/>`Azure DevOps` `Detox E2E` |
+| **🎨 UI/UX & Tooling** | <img src="https://skillicons.dev/icons?i=figma,git" alt="Figma, Git" /><br/>`RTL & i18n` `Multi-tenant Theming` |
+
 </div>
+
+<h2 align="center">🏆 Flagship Production Platforms</h2>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohamedelandy&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+
+| 🛍️ **Tjaara Multi-Stores App** | 📊 **Tjaara Dashboard App** | 🤝 **Tjaara Partners App** |
+| :---: | :---: | :---: |
+| Multi-tenant e-commerce with a dynamic theming engine and full RTL Arabic UX | Real-time merchant operations, live inventory sync & analytics visualization | Extensible integration hub connecting merchants, APIs & third-party vendors |
+| `Multi-tenant` `Theming` `RTL` | `Real-time` `Inventory` `Analytics` | `Integrations` `APIs` `Vendors` |
+
 </div>
 
----
+<h2 align="center">📊 GitHub Stats</h2>
 
-### 🤝 Let's Connect & Build Scalable Products
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mohamedelandy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=61DAFB&text_color=A0AEC0&icon_color=61DAFB&bg_color=0D1117" alt="Mohamed's GitHub Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelandy&layout=compact&theme=tokyonight&hide_border=true&title_color=61DAFB&text_color=A0AEC0&bg_color=0D1117" alt="Top Languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=mohamedelandy&theme=tokyonight&hide_border=true&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB&background=0D1117" alt="GitHub Streak" />
+</div>
 
-Whether you're looking to build a high-performance cross-platform application, refactor legacy codebases into modern clean architecture, or optimize CI/CD release pipelines:
+<h2 align="center">🤝 Let's Build Something Great</h2>
 
-- 🌐 **Portfolio:** [mohamedelnady.vercel.app](https://mohamedelnady.vercel.app/)
-- 💼 **LinkedIn:** [linkedin.com/in/mohammedelnady](https://linkedin.com/in/mohammedelnady)
-- ✉️ **Direct Email:** [muhammed.elnady@hotmail.com](mailto:muhammed.elnady@hotmail.com)
+<div align="center">
+
+*Got a product idea, a tangled legacy codebase, or a slow release pipeline? Let's talk.*
+
+| 📱 **Build** | 🏗️ **Refactor** | 🚀 **Ship** |
+| :---: | :---: | :---: |
+| High-performance cross-platform apps that feel truly native | Legacy codebases → modern clean architecture | Faster, safer releases with optimized CI/CD pipelines |
+
+<p>
+  <a href="https://mohamedelnady.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mohamedelnady.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/mohammedelnady"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:muhammed.elnady@hotmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<sub>Thanks for stopping by. Let's ship something great. ⚡</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0D1117,50:0A66C2,100:61DAFB" alt="" />
+
+</div>
